@@ -60,7 +60,7 @@
 
 /* _________________ */
 
-body{background-color: black;}
+
 * {
     margin: 0;
     padding: 0;
@@ -536,6 +536,7 @@ body{background-color: black;}
     line-height: 34px;
     text-align: center;
     color: #363636;
+    background-color: white;
   }
   .text-section__online-control {
     height: 1102px;
