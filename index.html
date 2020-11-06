@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Repair Design Project</title>
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+</head>
+<body>
+<header class="header">   
+  <div class="wrapper header__wrapper">
+    <div class="logo">
+      <h1 class="logo__name">Repair Design Project"</h1>
+    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav__item"><a class="nav__link" href="#">Главная</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Проекты</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Замер</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Команда</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Отзывы</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="contact-us">
+      <a href="tel:7-928-768-32-39" class="contact-us__number">+7 (928) 768-32-39</a>
+      <button class="button contact-us__button">Заказать звонок</button>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="intro">
+    <div class="wrapper intro__wrapper">
+      <aside class="intro-aside">
+        <div class="instagram">
+          <a href="#" class="instagram__text">INSTAGRAM</a>
+          <div class="instagram__hr"></div>
+        </div>
+      </aside>
+      <div class="intro-wrapper">
+        <div class="intro-content intro-wrapper__intro-content">
+          <h2 class="intro-content__heading">Турецкий ремонт в  <span class="intro-content__highlited">Ростове-на-Дону</span></h2>
+          <p class="intro-content__text">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и 20% от стоимости материалов за счет организации работы</p>
+          <button class="button intro-content__button-calculate">Рассчитать стоимость</button>
+          <button class="button intro-content__button-submit">Отправить заявку</button>
+        </div>
+        <div class="scroll-down-block">
+          <span class="scroll-down-block__text">Листайте вниз</span>
+          <img src="assets/img/scroll-down.svg" alt="arrow down" class="scroll-down-block__image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects">
+    <div class="wrapper projects__wrapper">
+      <div class="projects-text-block">
+        <div class="heading-block">
+          <h2 class="heading-block__heading">Завершенные проекты</h2>
+          <div class="heading-block__hr"></div>
+        </div>
+        <p class="projects-text-block__paragraph">На сайте представлена ​​лишь небольшая часть работ, выполняемых нашей компанией. За 14 лет работы на строительном рынке мы осчастливили более 1000 семей</p>
+        <div class="features">
+          <div class="features__item">
+            <h3 class="features__name">Город:</h3>
+            <p class="features__description">Ростов-на-Дону ЖК Адмирал</p>
+          </div>
+          <div class="features__item">
+            <h3 class="features__name">Площадь:</h3>
+            <p class="features__description">81 м2</p>
+          </div>
+          <div class="features__item">
+            <h3 class="features__name">Срок ремонта:</h3>
+            <p class="features__description">3.5 месяца</p>
+          </div>
+          <div class="features__item">
+            <h3 class="features__name">стоимость:</h3>
+            <p class="features__description">По запросу</p>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <img src="assets/img/slider-controls-arrow-left.svg" alt="" class="slider-controls__left">
+          <div class="slider-controls__circle slider-controls__circle_active"></div>
+          <div class="slider-controls__circle"></div>
+          <div class="slider-controls__circle"></div>
+          <img src="assets/img/slider-controls-arrow-right.svg" alt="" class="slider-controls__right">
+        </div>
+      </div>
+      <div class="slider-photos">
+        <div class="slider-photos-carousel">
+          <img class="slider-photos-carousel__item" src="assets/img/slider-photo-carousel-1.png" alt="">
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="text-section text-section__online-control">
+    <div class="wrapper online-control__wrapper">
+      <h2 class="text-section__heading">Онлайн контроль</h2>
+      <img src="assets/img/camera-icon.svg" alt="" class="text-section__image">
+      <div class="text-section-video">
+        <iframe src="https://www.youtube.com/embed/6n3pFFPSlW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="text-section__hr"></div>
+      <p class="text-section__paragraph">На каждом объекте установлена ​​камера, которая транслирует ход работы на часах. В любой момент вы можете зайти на наш сайт и следить за ходом работы в вашей квартире. Посмотрите прямую трансляцию с одного из наших объектов! Оставьте заявку ниже чтобы получить ссылку на трансляцию.</p>
+      <form action="#" class="form text-section__form">
+        <div class="input-block">
+          <label class="input-block__label" for="name2">Имя</label>
+          <input class="input-block__input" type="text" name="name" id="name2" placeholder="Как вас зовут:">
+        </div>
+        <div class="input-block">
+          <label class="input-block__label" for="phone2">Телефон</label>
+          <input class="input-block__input" type="tel" name="phone" id="phone2" placeholder="Ваш номер телефона:">
+        </div>
+        <div class="submit-block">
+          <button class="submit-block__submit" type="submit" value="Отправить">Отправить</button>
+        </div>
+        <div class="checkbox-block">
+          <input class="checkbox-block__checkbox" type="checkbox" name="checkbox" id="checkbox2" required><label class="checkbox-block__label" for="checkbox2">Я соглашаюсь с обработкой данных</label>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="text-section text-section__repair">
+    <div class="wrapper repair__wrapper">
+      <h2 class="text-section__heading">Виды ремонта</h2>
+      <img src="assets/img/repair-icon.svg" alt="" class="text-section__image">
+      <div class="cards-container repair__cards-container">
+        <div class="card">
+          <img src="assets/img/repair-type-1.png" alt="" class="card__image">
+          <div class="text-container">
+            <h4 class="text-container__heading">Косметический ремонт</h4>
+            <ul class="text-container__list">
+              <li class="text-container__item">Демонтаж старых покрытий</li>
+              <li class="text-container__item">Поклейка обоев</li>
+              <li class="text-container__item">Роспись стен и потолков</li>
+              <li class="text-container__item">Укладка полов</li>
+              <li class="text-container__item">Замена сантехники</li>
+              <li class="text-container__item">Замена розеток и выключателей</li>
+              <li class="text-container__item">Замена дверей</li>
+            </ul>
+            <button class="button text-container__button">От 900 руб / м2</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/repair-type-2.png" alt="" class="card__image">
+          <div class="text-container">
+            <h4 class="text-container__heading">Капитальный ремонт</h4>
+            <ul class="text-container__list">
+              <li class="text-container__item">Демонтаж старых покрытий</li>
+              <li class="text-container__item">Поклейка обоев</li>
+              <li class="text-container__item">Роспись стен и потолков</li>
+              <li class="text-container__item">Укладка полов</li>
+              <li class="text-container__item">Замена сантехники</li>
+              <li class="text-container__item">Замена розеток и выключателей</li>
+              <li class="text-container__item">Замена дверей</li>
+            </ul>
+            <button class="button text-container__button">от 1800 руб / м2</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/repair-type-3.png" alt="" class="card__image">
+          <div class="text-container">
+            <h4 class="text-container__heading">Дизайнерский ремонт</h4>
+            <ul class="text-container__list">
+              <li class="text-container__item">Демонтаж старых покрытий</li>
+              <li class="text-container__item">Поклейка обоев</li>
+              <li class="text-container__item">Роспись стен и потолков</li>
+              <li class="text-container__item">Укладка полов</li>
+              <li class="text-container__item">Замена сантехники</li>
+              <li class="text-container__item">Замена розеток и выключателей</li>
+              <li class="text-container__item">Замена дверей</li>
+            </ul>
+            <button class="button text-container__button">от 4000 руб / м2</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="flow">
+    <div class="wrapper flow__wrapper">
+      <div class="circles-container">
+        <div class="item">
+          <div class="circle"><span class="circle__text">01</span></div>
+          <p class="item__text">Наш специалист приедет для замеров в день контакта или назначит удобную для вас дату</p>
+        </div>
+        <div class="item">
+          <div class="circle"><span class="circle__text">02</span></div>
+          <p class="item__text">Бесплатный замер</p>
+        </div>
+        <div class="item">
+          <div class="circle"><span class="circle__text">03</span></div>
+          <p class="item__text">Бесплатная консультация</p>
+        </div>
+        <div class="item">
+          <div class="circle"><span class="circle__text">04</span></div>
+          <p class="item__text">Получите смету расходов и сроки вашего будущего ремонта</p>
+        </div>
+      </div>
+
+      <form action="#" class="form flow__form">
+        <h4 class="form__heading">Оставьте заявку на бесплатный выезд замерщика</h4>
+        <div class="input-block">
+          <label class="input-block__label" for="name3">Имя</label>
+          <input class="input-block__input" type="text" name="name" id="name3" placeholder="Как вас зовут:">
+        </div>
+        <div class="input-block">
+          <label class="input-block__label" for="phone3">Телефон</label>
+          <input class="input-block__input" type="tel" name="phone" id="phone3" placeholder="Ваш телефон:">
+        </div>
+        <div class="input-block">
+          <label class="input-block__label" for="email3">Email</label>
+          <input class="input-block__input" type="email" name="email" id="email3" placeholder="Ваш email:">
+        </div>
+        <div class="checkbox-block">
+          <input class="checkbox-block__checkbox" type="checkbox" name="checkbox" id="checkbox3" required>
+          <label class="checkbox-block__label" for="checkbox3">Я соглашаюсь с обработкой данных</label>
+        </div>
+        <div class="submit-block">
+          <button class="submit-block__submit" type="submit" value="Вызвать замерщика ">Вызвать замерщика</button>
+        </div>
+      </form>
+      <div class="banner">
+        <img src="assets/img/banner-img.png" alt="" class="banner__img" width="72" height="72">
+        <p class="banner__text">Это поможет сэкономить 10 - 20% от стоимости материалов
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="styles">
+    <div class="wrapper styles__wrapper">
+      <div class="text-container styles__text-container">
+        <h2 class="text-container__heading">Мы реализуем ваши
+            самые смелые фантазии</h2>
+        <ul class="text-container__list">
+          <li class="text-container__item"><a href="" class="text-container__link text-container__link_selected">Американская классика</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Имперский стиль</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Классика</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Лофт</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Минимализм</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Прованс</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Романтизм</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Скандинавский стилб</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Средиземноморский стиль</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Хайтек</a></li>
+          <li class="text-container__item"><a href="" class="text-container__link">Эклектизм</a></li>
+        </ul>
+      </div>
+      <div class="img-container">
+        <div class="left-column">
+          <img src="assets/img/styles-1.png" alt="" class="img-container__image">
+          <img src="assets/img/styles-2.png" alt="" class="img-container__image">
+        </div>
+        <div class="right-column">
+          <img src="assets/img/styles-3.png" alt="" class="img-container__image">
+          <img src="assets/img/styles-4.png" alt="" class="img-container__image">
+        </div>
+      </div>
+      <div class="mobile-block">
+        <img class="mobile-block__image" src="assets/img/mobile-styles.png" alt="">
+        <div class="slider-photos-carousel__prev"><img src="assets/img/arrow.svg" alt="" class="slider-photos-carousel__arrow"></div>
+        <div class="slider-photos-carousel__next"><img src="assets/img/arrow.svg" alt="" class="slider-photos-carousel__arrow"></div>
+      </div>
+    </div>
+  </section>
+  <section class="text-section text-section__design">
+    <div class="wrapper design__wrapper">
+      <h2 class="text-section__heading">Дизайн проект</h2>
+      <img src="assets/img/design-icon.png" alt="" class="text-section__image">
+      <p class="text-section__paragraph">Дизайн-проект не только помогает сделать ремонт вашей квартиры более современным, но и значительно удешевляет материалы и сокращает время ремонтных работ</p>
+      <div class="cards-container">
+        <div class="card">
+          <img src="assets/img/repair-type-3.png" alt="" class="card__image" width="392" height="421">
+          <div class="text-container">
+            <h4 class="text-container__heading">Минимальный</h4>
+            <ul class="text-container__list">
+                <li class="text-container__item">Измерительные чертежи</li>
+                <li class="text-container__item">Перепланировка</li>
+                <li class="text-container__item">Планировка мебели</li>
+                <li class="text-container__item">Сантехнический план</li>
+            </ul>
+            <button class="button text-container__button">150 рауб / м2</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/repair-type-2.png" alt="" class="card__image" width="392" height="421">
+          <div class="text-container">
+            <h4 class="text-container__heading">Стандартный</h4>
+            <ul class="text-container__list">
+              <li class="text-container__item">Измерительные чертежи</li>
+              <li class="text-container__item">Перепланировка</li>
+              <li class="text-container__item">Планировка мебели</li>
+              <li class="text-container__item">План потолков</li>
+              <li class="text-container__item">План этажей</li>
+              <li class="text-container__item">План электрики</li>
+              <li class="text-container__item">План света</li>
+            </ul>
+            <button class="button text-container__button">400 руб / м2</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/design-type-3.png" alt="" class="card__image" width="392" height="421">
+          <div class="text-container">
+            <h4 class="text-container__heading">Полный</h4>
+            <ul class="text-container__list">
+              <li class="text-container__item">Измерительные чертежи</li>
+              <li class="text-container__item">Перепланировка</li>
+              <li class="text-container__item">Планировка мебели</li>
+              <li class="text-container__item">План потолков</li>
+              <li class="text-container__item">План этажей</li>
+              <li class="text-container__item">План электрики</li>
+              <li class="text-container__item">План света</li>
+                <li class="text-container__item">Стенные развертки</li>
+                <li class="text-container__item">3D визуализация</li>
+                <li class="text-container__item">Смета на материалы</li>
+                <li class="text-container__item">Выезд на подбор материалов</li>
+                <li class="text-container__item">Выбор мебели</li>
+            </ul>
+            <button class="button text-container__button">900 руб / м2</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="working">
+    <div class="wrapper working__wrapper">
+      <div class="text-block">
+        <h6 class="text-block__top-heading">как мы работаем</h6>
+        <div class="text-block-heading">
+          <h2 class="text-block-heading__heading">6 шагов <br>до цели</h2>
+          <div class="text-block-heading__hr"></div>
+        </div>
+        <div class="slider-text">
+          <span class="slider-text__counter">1/6</span>
+          <h3 class="slider-text__heading">Выезд на замеры помещения</h3>
+          <p class="slider-text__paragraph">После вашего звонка мы идем к вам, чтобы проконсультироваться и измерить помещения вашей квартиры. Во время нашей встречи вы можете задать абсолютно любые вопросы, касаемо ремонта. Оценщик приходит, чтобы измерить комнату.</p>
+          <p class="slider-text__paragraph">Он проконсультирует вас по вопросам техники ремонта, дизайна квартиры, сроков ремонта квартиры в целом и отдельных ее этапов.</p>
+          <div class="slider-controls">
+            <img src="assets/img/slider-controls-arrow-left.svg" alt="" class="slider-controls__left">
+            <div class="slider-controls__circle slider-controls__circle_active"></div>
+            <div class="slider-controls__circle"></div>
+            <div class="slider-controls__circle"></div>
+            <div class="slider-controls__circle"></div>
+            <div class="slider-controls__circle"></div>
+            <div class="slider-controls__circle"></div>
+            <img src="assets/img/slider-controls-arrow-right.svg" alt="" class="slider-controls__right">
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="points-container">
+          <div class="point point_selected">
+            <span class="point__number">01</span>
+            <p class="point__text">Выезд на замер помещения</p>
+          </div>
+          <div class="point">
+            <span class="point__number">02</span>
+            <p class="point__text">Составление сметы</p>
+          </div>
+          <div class="point">
+            <span class="point__number">03</span>
+            <p class="point__text">Разработка  дизайн проекта</p>
+          </div>
+          <div class="point">
+            <span class="point__number">04</span>
+            <p class="point__text">Закупка расходных материалов</p>
+          </div>
+          <div class="point">
+            <span class="point__number">05</span>
+            <p class="point__text">Ремонтно-отделочные работы</p>
+          </div>
+          <div class="point">
+            <span class="point__number">06</span>
+            <p class="point__text">Приемка-сдача работ</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="assets/img/slider-photo.png" alt="" class="slider-img__img" width="765" height="377">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-section text-section__team">
+    <div class="wrapper team__wrapper">
+      <h2 class="text-section__heading">Наша команда</h2>
+      <img src="assets/img/team-icon.svg" alt="" class="text-section__image">
+      <p class="text-section__paragraph">
+        Наша команда помогла стать счастливее более чем 500 семьям, и мы не собираемся останавливаться
+      </p>
+      <div class="cards-container team__cards-container">
+        <div class="card">
+          <div class="icon-block">
+            <img src="assets/img/team-1-icon.svg" alt="" class="card__icon">
+          </div>
+          <img src="assets/img/team-1.png" alt="" class="card__image">
+          <div class="text-container">
+            <h4 class="text-container__heading">Алексей Колмаков</h4>
+            <span class="text-container__text">Проектный менеджер</span>
+            <button class="button text-container__button">Опыт работы 8 лет</button>
+          </div>
+        </div>
+        <div class="card">
+            <div class="icon-block">
+              <img src="assets/img/team-2-icon.svg" alt="" class="card__icon">
+            </div>
+          <img src="assets/img/team-2.png" alt="" class="card__image">
+          <div class="text-container">
+            <h4 class="text-container__heading">Алиса Сухорукова</h4>
+            <span class="text-container__text">Дизайнер</span>
+            <button class="button text-container__button">Опыт работы 6 лет</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon-block">
+            <img src="assets/img/team-3-icon.svg" alt="" class="card__icon">
+          </div>
+          <img src="assets/img/team-3.png" alt="" class="card__image">
+          <div class="text-container">
+            <h4 class="text-container__heading">Давид Волынев</h4>
+            <span class="text-container__text">Бригадир</span>
+            <button class="button text-container__button">Опыт работы 7 лет</button>
+          </div>
+        </div>
+      </div>
+      <div class="text-section__hr"></div>
+      <p class="text-section__paragraph">Каждый сотрудник нашей компании является квалифицированным штатным специалистом с опытом работы от 6 лет</p>
+      <p class="text-section__paragraph">У нас нет гастарбайтеров, каждый сотрудник выполняет работу, соответствующую его специальности.</p>
+    </div>
+  </section>
+  <section class="text-section text-section__clients">
+    <div class="wrapper clients__wrapper">
+      <h2 class="text-section__heading">Наши клиенты</h2>
+      <img src="assets/img/clients-icon.svg" alt="" class="text-section__image">
+      <p class="text-section__paragraph">80% наших клиентов рекомендуют нас своим знакомым и друзьям</p>
+      <div class="cards-container">
+        <div class="card">
+          <div class="text-container">
+            <div class="text-container-top">
+              <img src="assets/img/client-1.png" alt="" class="text-container-top__img">
+              <h4 class="text-container-top__heading">Савельева Екатерина Львовна</h4>
+            </div>
+            <p class="text-container__paragraph">Я хочу поблагодарить ребят за их работу. Они вложили душу в ремонт. Я очень благодарна, что сделали как для самих себя. Большое спасибо, я выражаю проектному менеджеру за его профессионализм и подход. Процесс ремонта был завершен быстрее, чем ожидалось. Команда мобильная и профессиональная. Работы выполнены качественно без нареканий. Цены демократические. Я рекомендую этих мастеров.</p>
+            <div class="button text-container__button">
+                <div class="button-left">
+                  <img src="assets/img/measure-icon.svg" alt="" class="button-left__icon">
+                  <span class="button-left__text">40 м2</span>
+                </div>
+                <div class="button-right">
+                  <img src="assets/img/calendar-icon.svg" alt="" class="button-right__icon">
+                  <span class="button-right__text">48 Дней</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="text-container">
+            <div class="text-container-top">
+              <img src="assets/img/client-2.png" alt="" class="text-container-top__img">
+              <h4 class="text-container-top__heading">Большов Михаил Анатольевич</h4>
+            </div>
+            <p class="text-container__paragraph">Я хочу поблагодарить ребят за их работу. Они вложили душу в ремонт. Я очень благодарен, что сделали как для самих себя. Большое спасибо, я выражаю проектному менеджеру за его профессионализм и подход. Процесс ремонта был завершен быстрее, чем ожидалось. Команда мобильная и профессиональная. Работы выполнены качественно без нареканий. Качество высокое. Я рекомендую этих мастеров.</p>
+            <div class="button text-container__button">
+              <div class="button-left">
+                <img src="assets/img/measure-icon.svg" alt="" class="button-left__icon">
+                <span class="button-left__text">90 м2</span>
+              </div>
+              <div class="button-right">
+                  <img src="assets/img/calendar-icon.svg" alt="" class="button-right__icon">
+                  <span class="button-right__text">128 Дней</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="text-container">
+            <div class="text-container-top">
+              <img src="assets/img/client-3.png" alt="" class="text-container-top__img">
+              <h4 class="text-container-top__heading">Хасанов Даниил Муратович</h4>
+            </div>
+            <p class="text-container__paragraph">Я хочу поблагодарить ребят за их работу. Они вложили душу в ремонт. Я очень благодарен, что сделали как для самих себя. Большое спасибо, я выражаю проектному менеджеру за его профессионализм и подход. Процесс ремонта был завершен быстрее, чем ожидалось. Команда мобильная и профессиональная. Работы выполнены качественно без нареканий. Качество высокое. Цены демократические. </p>
+            <div class="button text-container__button">
+              <div class="button-left">
+                <img src="assets/img/measure-icon.svg" alt="" class="button-left__icon">
+                <span class="button-left__text">56 м2</span>
+              </div>
+              <div class="button-right">
+                  <img src="assets/img/calendar-icon.svg" alt="" class="button-right__icon">
+                  <span class="button-right__text">86 Дней</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="questions">
+    <form action="#" class="form">
+        <h4 class="form__heading">Остались вопросы?</h4>
+        <div class="input-inline">
+          <div class="input-block">
+            <label class="input-block__label" for="name1">Имя</label>
+            <input class="input-block__input" type="text" name="name" placeholder="Как вас зовут:" id="name1">
+          </div>
+          <div class="input-block">
+            <label class="input-block__label" for="phone1">Телефон</label>
+            <input class="input-block__input" type="tel" name="phone" id="phone1" placeholder="Ваш номер телефона:">
+          </div>
+        </div>
+        <div class="input-block">
+            <label class="input-block__label" for="know1">Вопрос</label>
+            <input class="input-block__input" type="text" name="know" id="know1" placeholder="Я хочу спросить:" required>
+          </div>
+        <div class="checkbox-block">
+          <input class="checkbox-block__checkbox" type="checkbox" name="checkbox" id="checkbox1" required>
+          <label class="checkbox-block__label" for="checkbox1">Я соглашаюсь с обработкой данных</label>
+        </div>
+        <div class="submit-block">
+          <button class="submit-block__submit" type="submit" value="Отправить">Отправить</button>
+        </div>
+    </form>
+  </section>
+  <section class="map">
+    <div class="wrapper map__wrapper">
+      <h2 class="map__heading">Ростов на дону, Торговый центр Plaza</h2>
+      <h2 class="map__heading">Прямой телефон +7 (999) 768 32 99</h2>
+      <div class="social">
+        <div class="social-item">
+          <img src="assets/img/email-icon.svg" alt="" class="social-item__image">
+        </div>
+        <div class="social-item">
+          <img src="assets/img/instagram-icon.svg" alt="" class="social-item__image">
+        </div>
+      </div>
+      <img src="assets/img/map.png" class="map__image" width="925" height="465" alt="">
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="wrapper footer__wrapper">
+    <div class="logo">
+      <h1 class="logo__name">Repair Design Project</h1>
+    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav__item"><a class="nav__link" href="#">Главная</a></li>
+        <li class="nav__item"><a class="nav__link" href="http://google.com">Проекты</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Замер</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Команда</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Отзывы</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="contact-us">
+      <a href="tel:7-928-768-32-39" class="contact-us__number">+7 (928) 768-32-39</a>
+      <button class="button contact-us__button">Заказать звонок</button>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
